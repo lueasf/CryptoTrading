@@ -4,7 +4,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib.dates import DateFormatter
 
-BTC_USD = yf.download("BTC-USD", start="2021-01-01", end="2021-12-31", interval="1d")
+BTC_USD = yf.download("BTC-USD", start="2020-01-01", end="2020-12-31", interval="1d")
 BTC_USD['SMA_9'] = BTC_USD['Close'].rolling(window=9, min_periods=1).mean() # On ajoute une colone au dataframe, avec les MA.
 # print(BTC_USD.tail(7))
 

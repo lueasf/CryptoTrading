@@ -2,6 +2,8 @@
 
 Ce projet à pour but de créer un algorithme de trading de cryptomonnaie en utilisant la méthode de **Simple Moving Averages (SMA)**.
 
+
+
 ## Installation
 ```bash
 git clone 
@@ -28,6 +30,9 @@ Au bout de 1 an, B&H atteint 40 000$ et SMA atteint 45 000$ .
 On quadruple notre investissement. C'est parce que en 2020, le Bitcoin a explosé.
 Si on recommence avec les données de 2021, on se rend compte, que
 B&H surpasse Crossing Averages à la fin et les rendements sont moins élevés qu'en 2020.
+![backtesting](SMA.png)
+
+![Portfolio](Portfolio.png)
 
 ## Yfinance
 - download() est une méthode de yfinance utilisé pour récupérer les données d'une action.

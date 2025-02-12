@@ -26,8 +26,8 @@ Moving Average Crossover : C'est une stratégie de trading qui consiste à achet
 Le backtesting est une méthode qui permet de tester une stratégie ou un modèle sur des données historiques. 
 Ici, j'effectue le backtesting avec un portefeuille de 10 000$.
 On test avec la stratégie Buy and Hold et la stratégie SMA. 
-Au bout de 1 an, B&H atteint 40 000$ et SMA atteint 45 000$ .
-On quadruple notre investissement. C'est parce que en 2020, le Bitcoin a explosé.
+Au bout de 1 an, B&H atteint 40 000$ et SMA atteint 38 000$ .
+On quadruple notre investissement. C'est parce que en 2020, le Bitcoin a explosé. Toutefois, la stratégie B&H n'est pas toujours la meilleure.
 Si on recommence avec les données de 2021, on se rend compte, que
 B&H surpasse Crossing Averages à la fin et les rendements sont moins élevés qu'en 2020.
 ![backtesting](SMA.png)
